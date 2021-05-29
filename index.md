@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Y의 블로그 입니다"
+title: "Y's blog'"
 ---
 
 ## You're ready to go!
