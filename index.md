@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Y의 블로그 입니다"
 ---
 
 ## You're ready to go!
