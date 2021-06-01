@@ -25,6 +25,7 @@ body{
     position: relative;
     top: -100vh;
     color: white;
+    margin: 0;
 }
 
 #tag-box{
