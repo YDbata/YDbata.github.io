@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<!--  -->
-<body>
-    <!--  -->
-    <section class="post">
-        <h1>Hello World!</h1>
-        <p>안녕하세요.</p>
+I"�<p>안녕하세요.</p>
 
 <p>저는 오늘부터 이 블로그를 관리 하려 합니다.</p>
 
@@ -46,12 +39,4 @@
 <p>내일은 검색창, opt과 최근게시물 버튼을 완성하고 tag를 사용하기 위해 _post의 파싱구조를 공부하려합니다.</p>
 
 <p>앞으로 clip에 대해 공부하고 최근게시물은 clip으로 구현해야겠다. opt은 더 생각해보자</p>
-
-    </section>
-    <!-- 
-<footer>
-    <p>Copyright © 2021</p>
-</footer>
- -->
-</body>
-</html>
+:ET

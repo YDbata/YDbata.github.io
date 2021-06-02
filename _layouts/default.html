@@ -6,19 +6,31 @@
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  <script src="{{'../node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
-  <script src="{{'../node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
-  <script src="{{'../node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.url}}"></script>
+  <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.url}}"></script>
+  <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.url}}"></script>
 
 </head>
 
 <body>
+  <!-- {% include header.html %} -->
   <div class="tri">
     
   </div>
   <div class="tri-detail">
-    안녕하세요
-    
+    <div id="profile-image">
+      <img src="{{'\assets\images\ggang.jpg'}}"> 
+    </div>
+
+    <div class="contact">
+      메일
+      </p>
+      인스타
+      <p>
+      유튜브
+    </div>
+  
+
   </div>
   <div id="tag-box" class="fw-bold">
     TAG
@@ -32,6 +44,7 @@
       {% endfor %}
     </ul>
   </div>
+  {% include footer.html %}
 </body>
 
 </html>
