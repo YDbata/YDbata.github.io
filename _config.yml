@@ -5,3 +5,7 @@ sass:
   load_paths:
     - _sass
     - node_modules
+deploy:
+  type: git
+  repo: https://github.com/YDbata/YDbata.github.io
+  branch: master
