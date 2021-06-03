@@ -2,10 +2,15 @@ url: "https://ydbata.github.io" # the base hostname & protocol for your site, e.
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Y's site" # the name of your site, e.g. ACME Corp.
 sass:
+  sass_dir: node_modules\bootstrap\scss
   load_paths:
     - _sass
     - node_modules
+
 deploy:
   type: git
   repo: https://github.com/YDbata/YDbata.github.io
   branch: master
+
+exclude:
+  - node_modules

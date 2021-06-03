@@ -1,48 +1,40 @@
 body{
     width : 100%;
     height : 100%;
-    margin: 0;
-    min-height: 1000px;
+    margin: 0px;
+    /* min-height: 10000px; */
 }
 
 .tri {
     position: relative;
     float: right;
-    width: 0vw;
-    height: 0vh;
+    width: 0%;
+    height: 0%;
     border-bottom: 100vh solid black;
-    border-left: 100vw solid gray;
-    margin: 0;
+    border-left: 99.1vw solid gray;
+    margin: 0px;
     
-    line-height: center;
+    /* line-height: center; */
 }
 
+/* 회색부분 */
 .tri-detail{
-    /* width: 100%; */
+    width: 95vw;
     height: 100vh;
     position: relative;
     color: white;
     top: -100vh;
-    left: 0vw;
+    left: 2vw;
     margin: 0;
 }
 
-#tag-box{
-    border-top: 5px solid #06005f;
-    background: black;
-    color: white;
-    text-align: center;
-    font-size: 2vw;
-    font-style: bold;
-    margin: 0px;
-}
+
 
 #profile-image{
     width: 12vw;
     height: 16vw;
     position: relative;
     top: 3vh;
-    left: 2vw;
     border: 5px solid white;
     overflow: hidden;
 }
@@ -58,10 +50,61 @@ body{
     position: relative;
     width: 98%;
     top: 5vh;
-    left: 2vw;
     margin: 0px;
 }
 
+
+.intro{
+    position: relative;
+    margin: 0px;
+    width: 50vw;
+    left: 15vw;
+    top: 0vh;
+}
+/* 검은 부분 */
+.opt{
+    float: right;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: red;
+    top: -100vh;
+    right: 1%;
+    margin: 0px;
+}
+.near{
+    position: relative;
+    float: right;
+    /* top: 2%; */
+    width: 15%;
+    height: 15%;;
+    right: -1%;
+    clip-path: polygon(100% 0,0  100%, 100% 100%);
+    background: red;
+}
+.tag-cate-toggle{
+    position: relative;
+    float: left;
+    top: 90%;
+    width: 10%;
+    height: 10%;;
+    left: 2%;
+    clip-path: polygon(100% 0,0  100%, 100% 100%);
+    background: purple;
+}
+
+/* tag-category list */
+#tag-box{
+    border-top: 5px solid #06005f;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    font-style: bold;
+    margin: 0px;
+}
+
+/* footer */
 footer{
     background: black;
     color: white;
