@@ -15,6 +15,7 @@
   <div class="tri">
 
   </div>
+
   <div class="tri-detail">
     <div id="profile-image">
       <img src="{{'\assets\images\ggang.jpg'}}">
@@ -39,21 +40,20 @@
     <div class="tag-cate-toggle">
 
     </div>
-    <form>
+    <form class="search-form">
       <div id="search" class="input-group input-group-lg">
-        <input class="form-control" type="text" placeholder="Enter your tag" aria-label="Enter tag"
+        <input class="form-control text-black-50" type="text" placeholder="Enter tag" aria-label="Enter tag"
           aria-describedby="button-submit">
-        <button class="btn btn-primary" id="button-submit" type="button">Sign up!</button>
+        <button class="btn" id="button-submit" type="button">Sign up!</button>
       </div>
     </form>
     
   </div>
 
-
-  <div id="tag-box" class="fw-bold">
+  <div id="tag-box">
     TAG
   </div>
-  <div>
+  <div class="tag-list">
     <ul>
       {% for post in site.posts %}
       <li>
@@ -64,7 +64,7 @@
   </div>
 
 
-  {% include footer.html %}
+  <!-- {% include footer.html %} -->
 
   <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.url}}"></script>
   <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.url}}"></script>

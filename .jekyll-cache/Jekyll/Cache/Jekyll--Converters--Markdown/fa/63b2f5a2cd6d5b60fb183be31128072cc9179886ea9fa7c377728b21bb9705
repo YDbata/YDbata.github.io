@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<!--  -->
-<body>
-    <!--  -->
-    <section class="post">
-        <h1>Hello World!</h1>
-        <p>안녕하세요.</p>
+I"�<p>안녕하세요.</p>
 
 <p>저는 오늘부터 이 블로그를 관리 하려 합니다.</p>
 
@@ -68,12 +61,4 @@ print(code test)
 print(x + y)
 ```
 </p>
-
-    </section>
-    <!-- 
-<footer>
-    <p>Copyright © 2021</p>
-</footer>
- -->
-</body>
-</html>
+:ET

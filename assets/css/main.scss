@@ -7,6 +7,7 @@
 @import "main";
 
 body{
+    min-width: 600px;
     width : 100%;
     height : 100%;
     margin: 0px;
@@ -19,7 +20,7 @@ body{
     width: 0%;
     height: 0%;
     border-bottom: 100vh solid black;
-    border-left: 99.1vw solid gray;
+    border-left: 100vw solid gray;
     margin: 0px;
     
     /* line-height: center; */
@@ -34,13 +35,12 @@ body{
     top: -100vh;
     left: 2vw;
     margin: 0;
+    font-size: calc(1vw + 1vh)
 }
 
-
-
 #profile-image{
-    width: 12vw;
-    height: 16vw;
+    width: calc(7vw + 7vh);
+    height: calc(9vw + 9vh);
     position: relative;
     top: 3vh;
     border: 5px solid white;
@@ -61,13 +61,12 @@ body{
     margin: 0px;
 }
 
-
 .intro{
     position: relative;
     margin: 0px;
     width: 50vw;
     left: 15vw;
-    top: 0vh;
+    top: -20vh;
 }
 /* 검은 부분 */
 .opt{
@@ -96,24 +95,66 @@ body{
     top: 90%;
     width: 10%;
     height: 10%;;
-    left: 2%;
+    left: 1%;
     clip-path: polygon(100% 0,0  100%, 100% 100%);
     background: purple;
 }
 
+/* search box*/
+.search-form{
+    position: relative;
+    float: right;
+    width: 80%;
+    top: 83vh;
+    right: -10vw;
+}
+
+#search{
+    font-size: 2vw;
+    color: black;
+}
+
+#button-submit{
+    color: black;
+    background: red;
+}
+//  btn-primary
+
 /* tag-category list */
 #tag-box{
+    // height: 5vh;
+    
+    // height: 20vh;
+    position: absolute;
+    width: 100%;
+    top: 100vh;
     border-top: 5px solid #06005f;
     background: black;
     color: white;
     text-align: center;
-    font-size: 2vw;
+    font-size: calc(1.5vh + 1.5vw);
     font-style: bold;
     margin: 0px;
 }
 
+
+/* */
+.tag-list{
+    position: relative;
+    height: 5vh;
+}
+
+ul{
+    height: 4vh;
+}
+
+li{
+    height: 4vh;
+}
+
 /* footer */
 footer{
+    position: relative;
     background: black;
     color: white;
     text-align: center;
@@ -123,3 +164,4 @@ footer{
 footer p{
     margin: 0px;
 }
+
